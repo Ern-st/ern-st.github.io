@@ -349,7 +349,8 @@ tbody tr:nth-child(odd) th {
     font-size: .75rem;
     text-transform: uppercase;
   }
-  .inner p{
+  .inner[data-encrypted=true] p{
+    word-break: break-all;
     word-break: break-word;
   }
 }

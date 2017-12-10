@@ -21,7 +21,7 @@ layout: default
   	<input type="submit" name="decrypt" value="Decrypt">
   </form>
   {% endif %}
-  <div class="inner">
+  <div class="inner" {% if page.encrypted %}data-encrypted="true"{% endif %}>
     {{ content }}
   </div>
 </div>

@@ -14,6 +14,7 @@ decryptContent = function(){
 	content = CryptoJS.AES.decrypt(encryptedContent, secret);
 	try{
 		innerContainer.innerHTML = content.toString(CryptoJS.enc.Utf8)
+		innerContainer.setAttribute("data-encrypted","false")
 	} catch (e) {
 		//could not decrypt to valid utf-8!
 		nope()
