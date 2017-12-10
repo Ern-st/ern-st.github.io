@@ -1,10 +1,12 @@
 //helper just for me :)
-encryptContent = function(secret){
+encryptContent = function(){
+	secret = document.forms["decryptForm"].elements["key"].value.trim()
 	content = document.getElementsByClassName("inner")[0].innerHTML
 	encryptedContent = CryptoJS.AES.encrypt(content, secret);
 	console.log(encryptedContent.toString())
 }
 
+//decrypt the content of ".inner", jekyll automatically wraps the encrypted content in <p> tags, so we need to go deeper!
 decryptContent = function(){
 	secret = document.forms["decryptForm"].elements["key"].value.trim()
 	innerContainer = document.getElementsByClassName("inner")[0]
@@ -13,6 +15,7 @@ decryptContent = function(){
 	try{
 		innerContainer.innerHTML = content.toString(CryptoJS.enc.Utf8)
 	} catch (e) {
+		//could not decrypt to valid utf-8!
 		nope()
 	}
 }
