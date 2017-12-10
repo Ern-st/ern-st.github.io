@@ -13,8 +13,18 @@ decryptContent = function(){
 	try{
 		innerContainer.innerHTML = content.toString(CryptoJS.enc.Utf8)
 	} catch (e) {
-		console.info("NOPE :)")
+		nope()
 	}
+}
+
+nope = function(){
+	form = document.forms["decryptForm"]
+	form.setAttribute("class","poop")
+	form.elements["key"].value = "NOPE 💩 NOPE 💩 NOPE 💩 NOPE 💩"
+	setTimeout(function(){
+		form.setAttribute("class","")
+		form.elements["key"].value = ""
+	},1000)
 }
 
 document.forms["decryptForm"].onsubmit = function(e){
