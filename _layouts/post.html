@@ -12,6 +12,9 @@ layout: default
     <time>{{ page.date | date_to_string }}</time>
   </div>
   {% if page.encrypted %}
+  <noscript>
+    <div class="noscriptWarning">You need to allow script execution to decrypt the content.<br>Or you can decrypt it yourself, it's just AES encrypted ¯\_(ツ)_/¯</div>
+  </noscript>
   <span class="encryptedNotice">Hmm… It looks like this post is encrypted 🔒, do you know the key?</span>
   <form id="decryptForm" name="decryptForm">
   	<input type="text" name="key" placeholder="paste the key here">
