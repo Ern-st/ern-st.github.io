@@ -19,7 +19,7 @@ permalink:          /:year/:month/:title/
 
 # Markdown
 markdown:           kramdown
-highlighter:        rogue
+highlighter:        rouge
 
 # Navigation
 nav:
