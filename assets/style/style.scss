@@ -233,6 +233,11 @@ img {
   max-width: 100%;
   margin: 0 0 1rem;
   border-radius: 5px;
+  &.emoji{
+    display: inline-block;
+    border-radius: none;
+    margin: 0;
+  }
 }
 
 table {
