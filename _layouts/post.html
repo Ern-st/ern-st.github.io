@@ -12,7 +12,7 @@ layout: default
     <time>{{ page.date | date_to_string }}</time>
   </div>
   {% if page.encrypted %}
-  <span class="encryptedNotice">Hmm… It seems like this post is encrypted, do you know the key?</span>
+  <span class="encryptedNotice">Hmm… It looks like this post is encrypted 🔒, do you know the key?</span>
   <form id="decryptForm" name="decryptForm">
   	<input type="text" name="key" placeholder="paste the key here">
   	<input type="submit" name="decrypt" value="Decrypt">
