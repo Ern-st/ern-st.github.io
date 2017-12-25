@@ -520,8 +520,14 @@ tbody tr:nth-child(odd) th {
 .highlight .gp { color: #15f3e2; }
 
 // GIST THEME
-body .gist td, body .gist th{
+body .gist td, body .gist th, body .gist .gist-data, body .gist .gist-file{
   border: none;
+}
+body .gist .gist-data{
+  border-radius: 5px;
+}
+body .gist .gist-meta{
+  background: none;
 }
 body .gist .highlight {
     background: #272822;
