@@ -371,6 +371,16 @@ tbody tr:nth-child(odd) th {
     font-size: .75rem;
     text-transform: uppercase;
   }
+  a {
+    text-shadow: 0.03em 0 #fff, -0.03em 0 #fff, 0 0.03em #fff, 0 -0.03em #fff, 0.06em 0 #fff, -0.06em 0 #fff, 0.09em 0 #fff, -0.09em 0 #fff, 0.12em 0 #fff, -0.12em 0 #fff, 0.15em 0 #fff, -0.15em 0 #fff;
+    background: -webkit-gradient(linear,left top, left bottom,from(#fff),to(#fff)),-webkit-gradient(linear,left top, left bottom,from(#fff),to(#fff)),-webkit-gradient(linear,left top, left bottom,from(#268bd2),to(#268bd2));
+    background: -webkit-linear-gradient(#fff,#fff),-webkit-linear-gradient(#fff,#fff),-webkit-linear-gradient(#268bd2,#268bd2);
+    background: -o-linear-gradient(#fff,#fff),-o-linear-gradient(#fff,#fff),-o-linear-gradient(#268bd2,#268bd2);
+    background: linear-gradient(#fff,#fff),linear-gradient(#fff,#fff),linear-gradient(#268bd2,#268bd2);
+    background-size: .05em 1px,.05em 1px,1px 1px;
+    background-repeat: no-repeat,no-repeat,repeat-x;
+    background-position: 0 87%,100% 87%,0 93%;
+  }
   .inner[data-encrypted=true] p{
     word-break: break-all;
     word-break: break-word;
