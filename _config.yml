@@ -5,6 +5,7 @@
 # Basic
 name:               "Jeppe Ernst"
 description:        "🦄 CODE & stuff™"
+respository:        "ern-st/ern-st.github.io"
 
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
 url:                "//jeppe.ernst.link"
@@ -24,7 +25,7 @@ highlighter:        rouge
 # Navigation
 nav:
   - name:           "About"
-    href:           "//jeppe.ernst.link/about"
+    href:           "/about"
 
 # Sass
 sass:

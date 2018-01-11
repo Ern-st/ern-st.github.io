@@ -37,7 +37,8 @@ a {
 
   &:hover,
   &:focus {
-    text-decoration: underline;
+    // text-decoration: underline;
+    background-position: 0 87%,100% 87%,0 89%;
   }
 }
 
@@ -84,7 +85,8 @@ dd {
 }
 
 ul {
-  list-style: inside circle;
+  list-style: outside circle;
+
   padding-left: 0;
 
   li {
@@ -95,11 +97,12 @@ ul {
   ol {
     margin-top: .25rem;
     margin-bottom: .5rem;
+    margin-left: 1rem;
   }
 }
 
 ol {
-  list-style: inside decimal;
+  list-style: outside decimal;
   padding-left: 0;
 
   li {
@@ -110,6 +113,7 @@ ol {
   ol {
     margin-top: .25rem;
     margin-bottom: .5rem;
+    margin-left: 1rem;
   }
 }
 
@@ -231,8 +235,16 @@ pre code {
 img {
   display: block;
   max-width: 100%;
-  margin: 0 0 1rem;
+  margin: 0 auto 1rem;
   border-radius: 5px;
+  &[alt*="2x"]{
+    -moz-transform:scale(0.5);
+    -webkit-transform:scale(0.5);
+    transform:scale(0.5);
+  }
+  &[alt*="animate-spin-slow"]{
+    animation: 5s linear spin infinite;
+  }
   &.emoji{
     display: inline-block;
     border-radius: none;
@@ -704,4 +716,61 @@ body .gist .pl-iu {
 }
 .twitter-tweet{
   margin: 0 auto;
+}
+
+.masonry{
+  column-count: 3;
+}
+.github-repo{
+  display: inline-block;
+  background: #f7f7f7;
+  border-radius: 5px;
+  border: 1px solid #CCC;
+  width: 100%;
+  margin-bottom: 20px;
+  a {
+    padding: 3px 5px;
+    display: block;
+    background: #FFF;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid #CCC;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  p {
+    padding: 5px;
+    margin: 0;
+  }
+  &.JavaScript {
+    a {
+      background: #f7df1e;
+      color: #000;
+    }
+  }
+}
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+@media print {
+  html, body {
+    height: 99%;    
+  }
+  h2 {
+    page-break-before: always;
+  }
+  .gist .blob-code-inner{
+    word-wrap: normal !important;
+    white-space: normal !important;
+  }
 }
