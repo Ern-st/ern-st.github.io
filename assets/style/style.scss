@@ -126,7 +126,7 @@ ul + h3,
 ol + h1,
 ol + h2,
 ol + h3 {
-  margin-top: 1.5rem;
+  padding-top: 1.5rem;
 }
 
 hr {
@@ -746,6 +746,83 @@ body .gist .pl-iu {
       background: #f7df1e;
       color: #000;
     }
+  }
+}
+
+
+
+ul#markdown-toc::before{
+    content: "Table of Contents";
+    display:block;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+@media (min-width: 1280px) {
+  ul#markdown-toc::before {
+    text-align: center;
+    position: fixed;
+    width: calc((100vw - 782px) / 2);
+    max-width: 299px;
+    background: linear-gradient(#fff 80%,rgba(255,255,255,0));
+  }
+
+  ul#markdown-toc {
+      position: fixed;
+      top: 0;
+      left: 0;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      height: 100%;
+      width: calc((100vw - 780px) / 2);
+      max-width: 300px;
+      list-style: none;
+      border-right: 1px solid #CCC;
+      > li:first-child, > ul:first-child, > ol:first-child{
+        margin-top: 50px;
+      }
+  }
+  ul#markdown-toc ul{
+      list-style: none;
+      margin: 0;
+  }
+  ul#markdown-toc li a{
+    background: none;
+    display: block;
+    color: #333;
+    padding: 3px 5px;
+    padding-left: 9px;
+  }
+
+  ul#markdown-toc li {
+      border-top: 1px solid #ccc;
+      margin-bottom: 0;
+      
+  }
+  ul#markdown-toc ul li{
+    margin-right: -9px;
+    padding-left: 9px;
+    &:hover{
+      margin-left: 4px;
+      > a {
+        padding-left: 7px;
+      }
+    }
+    a {
+      padding-left: 15px;
+    }
+  }
+
+  ul#markdown-toc li:hover {
+      /* position: relative; */
+      /* right: -2px; */
+      border-left: 4px solid #ccc;
+      ul {
+        margin-left: -4px;
+      }
+      > a {
+        padding-left: 5px;
+      }
   }
 }
 
