@@ -771,7 +771,7 @@ ul#markdown-toc::before{
       position: fixed;
       top: 0;
       left: 0;
-      overflow-y: scroll;
+      overflow-y: auto;
       overflow-x: hidden;
       height: 100%;
       width: calc((100vw - 780px) / 2);
