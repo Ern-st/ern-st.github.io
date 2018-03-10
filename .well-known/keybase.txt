@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/ern_st
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jeppe.ernst.link
+  * I am ern_st (https://keybase.io/ern_st) on keybase.
+  * I have a public key ASDvrUEH77DjZAkbCTH-OApnNnXiSZar2C-S3sG0zaVWgQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01202724059bc303b1f461d648c3e18d0832fcdf62574046afe187152107ab6f7ec20a",
+      "host": "keybase.io",
+      "kid": "0120efad4107efb0e364091b0931fe380a673675e24996abd82f92dec1b4cda556810a",
+      "uid": "f95a72ce5e212c48f9ebffb05039cd19",
+      "username": "ern_st"
+    },
+    "merkle_root": {
+      "ctime": 1520695174,
+      "hash": "37c14298dfdf18accb9a0668eab7bcd5910eff3fb2a42b2a937f686f365e2ba2fc86c95e97e1d074a47cadae2014ec0a2276d8a534e3ff6458770d522b1e785b",
+      "hash_meta": "4c4b844c9411e3a0857962b1d533eb224d82b67e1e1fc5b35e8a16121636afc5",
+      "seqno": 2215540
+    },
+    "service": {
+      "hostname": "jeppe.ernst.link",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.38"
+  },
+  "ctime": 1520695183,
+  "expire_in": 504576000,
+  "prev": "a60caaca815fcbf856c2e2dcc04a0118d97249e1ae5c16e48f8fb108c3a8ae30",
+  "seqno": 33,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg761BB++w42QJGwkx/jgKZzZ14kmWq9gvkt7BtM2lVoEKp3BheWxvYWTFA0d7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMjcyNDA1OWJjMzAzYjFmNDYxZDY0OGMzZTE4ZDA4MzJmY2RmNjI1NzQwNDZhZmUxODcxNTIxMDdhYjZmN2VjMjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZWZhZDQxMDdlZmIwZTM2NDA5MWIwOTMxZmUzODBhNjczNjc1ZTI0OTk2YWJkODJmOTJkZWMxYjRjZGE1NTY4MTBhIiwidWlkIjoiZjk1YTcyY2U1ZTIxMmM0OGY5ZWJmZmIwNTAzOWNkMTkiLCJ1c2VybmFtZSI6ImVybl9zdCJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUyMDY5NTE3NCwiaGFzaCI6IjM3YzE0Mjk4ZGZkZjE4YWNjYjlhMDY2OGVhYjdiY2Q1OTEwZWZmM2ZiMmE0MmIyYTkzN2Y2ODZmMzY1ZTJiYTJmYzg2Yzk1ZTk3ZTFkMDc0YTQ3Y2FkYWUyMDE0ZWMwYTIyNzZkOGE1MzRlM2ZmNjQ1ODc3MGQ1MjJiMWU3ODViIiwiaGFzaF9tZXRhIjoiNGM0Yjg0NGM5NDExZTNhMDg1Nzk2MmIxZDUzM2ViMjI0ZDgyYjY3ZTFlMWZjNWIzNWU4YTE2MTIxNjM2YWZjNSIsInNlcW5vIjoyMjE1NTQwfSwic2VydmljZSI6eyJob3N0bmFtZSI6ImplcHBlLmVybnN0LmxpbmsiLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zOCJ9LCJjdGltZSI6MTUyMDY5NTE4MywiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiJhNjBjYWFjYTgxNWZjYmY4NTZjMmUyZGNjMDRhMDExOGQ5NzI0OWUxYWU1YzE2ZTQ4ZjhmYjEwOGMzYThhZTMwIiwic2Vxbm8iOjMzLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQEGpYAn7rkI9jgupDlo20w46Yy0LVspaiMfdfluTZazOgGfc2MXTG0nIWXdvJnUr6iGZazlxqHqB2Y+XsR+7Ggeoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBmJ0P4NgB6tBPYHQczBE8rH1OO4/tuKcrlFatzwjAf8aN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ern_st
+
+==================================================================
